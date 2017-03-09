@@ -1,0 +1,1 @@
+java -jar "D:\selenium-grid\selenium-server-standalone-2.53.0.jar" -role hub -Dwebdriver.firefox.bin="C:\FirefoxCollection\Mozilla Firefox 36.0\firefox.exe"

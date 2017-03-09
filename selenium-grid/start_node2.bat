@@ -1,0 +1,1 @@
+java -jar selenium-server-standalone-2.53.0.jar -role node -port 6666 -hub http://192.168.1.6:4444  -Dwebdriver.firefox.bin="C:\FirefoxCollection\Mozilla Firefox 36.0\firefox.exe"
