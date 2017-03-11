@@ -6,14 +6,6 @@ from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 
 
-"""
-导入 from selenium.webdriver.commom.action_chains import ActionChains
-setUp , TearDown,打开百度
-鼠标悬停设置 ActionChains().move_to_element().perform
-点击“搜索设置”
-保存设置--再处理弹出框driver.swith_to_alert().accept()或者driver.swith_to.alert.accept()
-33行 hagperform()的作用???
-"""
 class baidu_setting(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Ie(r"C:\Program Files (x86)\Internet Explorer"
